@@ -17,4 +17,6 @@ N3(NscriptNN) 是采用纯 C# 代码编写的神经网络推理库，方便部�
 
 - 分布式计算：方便发布到异构设备（移动设备，PC设备，云计算，GPU设备）上进行分布式计算，作为 Rivers 分布式计算引擎的底层基础。
 
-NN 采用 [ILGPU](https://github.com/m4rs-mt/ILGPU) 进行硬件加速。
+## 硬件加速
+
+- NN 默认采用 [ILGPU](https://github.com/m4rs-mt/ILGPU) 进行硬件加速。
